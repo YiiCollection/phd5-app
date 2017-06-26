@@ -1,13 +1,14 @@
 {
     "name": "dmstr/phd5-app",
-    "minimum-stability": "rc",
+    "vendor-dir": "../vendor",
+    "minimum-stability": "alpha",
     "require": {
         "wikimedia/composer-merge-plugin": "~1.4"
     },
     "extra": {
         "merge-plugin": {
             "require": [
-                "composer.phd5.json"
+                "src/composer.phd5.json"
             ]
         }
     },

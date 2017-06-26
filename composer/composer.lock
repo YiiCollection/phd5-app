@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c83767d1a33dbed103bf229b649fa3b",
+    "content-hash": "3472cc99a34c2a54ad789c3fb4835901",
     "packages": [
         {
             "name": "2amigos/yii2-chartjs-widget",
@@ -124,63 +124,6 @@
             "time": "2017-06-12T18:51:26+00:00"
         },
         {
-            "name": "2amigos/yii2-selectize-widget",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/2amigos/yii2-selectize-widget.git",
-                "reference": "08b5f542e469efe1e7d8af628ced83ab30693180"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-selectize-widget/zipball/08b5f542e469efe1e7d8af628ced83ab30693180",
-                "reference": "08b5f542e469efe1e7d8af628ced83ab30693180",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/selectize": "~0.12.0",
-                "yiisoft/yii2": "~2.0.0",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "dosamigos\\selectize\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "2amigOS! Consulting Group",
-                    "email": "hola@2amigos.us",
-                    "homepage": "http://2amigos.us",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The selectize.js widget for the Yii framework",
-            "homepage": "https://github.com/2amigos/yii2-selectize-widget",
-            "keywords": [
-                "2amigos",
-                "selectize",
-                "widget",
-                "yii",
-                "yii 2",
-                "yii2"
-            ],
-            "time": "2017-06-11T17:33:02+00:00"
-        },
-        {
             "name": "2amigos/yii2-translateable-behavior",
             "version": "0.1.2",
             "source": {
@@ -225,16 +168,16 @@
         },
         {
             "name": "almasaeed2010/adminlte",
-            "version": "v2.3.11",
+            "version": "v2.4.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "2be703222af2edcb87e562d3da2299e4352bff8a"
+                "reference": "7cfbe94b7e289b46a01acd89b054983074ae6477"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/2be703222af2edcb87e562d3da2299e4352bff8a",
-                "reference": "2be703222af2edcb87e562d3da2299e4352bff8a",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/7cfbe94b7e289b46a01acd89b054983074ae6477",
+                "reference": "7cfbe94b7e289b46a01acd89b054983074ae6477",
                 "shasum": ""
             },
             "type": "library",
@@ -249,7 +192,7 @@
                 }
             ],
             "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
-            "homepage": "http://almsaeedstudio.com/",
+            "homepage": "https://adminlte.io/",
             "keywords": [
                 "JS",
                 "admin",
@@ -261,20 +204,20 @@
                 "theme",
                 "web"
             ],
-            "time": "2017-01-08T21:03:57+00:00"
+            "time": "2017-06-25T18:56:15+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.30.1",
+            "version": "3.30.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d234cb5e111945eb4bfca7eda0eef07a25750b29"
+                "reference": "20539a38dc643a2700f80ae8647dbd1a05d3f7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d234cb5e111945eb4bfca7eda0eef07a25750b29",
-                "reference": "d234cb5e111945eb4bfca7eda0eef07a25750b29",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/20539a38dc643a2700f80ae8647dbd1a05d3f7a9",
+                "reference": "20539a38dc643a2700f80ae8647dbd1a05d3f7a9",
                 "shasum": ""
             },
             "require": {
@@ -341,7 +284,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-06-22T22:40:58+00:00"
+            "time": "2017-06-23T18:54:40+00:00"
         },
         {
             "name": "bedezign/yii2-audit",
@@ -481,102 +424,27 @@
             "description": "Ace (Ajax.org Cloud9 Editor)"
         },
         {
-            "name": "bower-asset/angular",
-            "version": "v1.5.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/angular/bower-angular.git",
-                "reference": "0f57428c3ffe2f486264ab7fbee3968dccc7b720"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular/zipball/0f57428c3ffe2f486264ab7fbee3968dccc7b720",
-                "reference": "0f57428c3ffe2f486264ab7fbee3968dccc7b720",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./angular.js",
-                "bower-asset-ignore": []
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/angular-sanitize",
-            "version": "v1.5.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/angular/bower-angular-sanitize.git",
-                "reference": "84df06c4ec4f1eef7f9d0b849b9fdf5433c2669c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular-sanitize/zipball/84df06c4ec4f1eef7f9d0b849b9fdf5433c2669c",
-                "reference": "84df06c4ec4f1eef7f9d0b849b9fdf5433c2669c",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/angular": "1.5.11"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./angular-sanitize.js",
-                "bower-asset-ignore": []
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/angular-translate",
-            "version": "2.9.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PascalPrecht/bower-angular-translate.git",
-                "reference": "ef066f3f831840390e20f43f6d0ff7c5434b5ba4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PascalPrecht/bower-angular-translate/zipball/ef066f3f831840390e20f43f6d0ff7c5434b5ba4",
-                "reference": "ef066f3f831840390e20f43f6d0ff7c5434b5ba4",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/angular": ">=1.2.26,<1.6"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./angular-translate.js",
-                "bower-asset-ignore": []
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A translation module for AngularJS"
-        },
-        {
             "name": "bower-asset/bootstrap",
-            "version": "v3.3.7",
+            "version": "v4.0.0-alpha.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
+                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
-                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/65ffb1c3b6e94440812a2e228cb8e8be512652ec",
+                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery": ">=1.9.1,<4.0"
+                "bower-asset/jquery": ">=1.9.1",
+                "bower-asset/tether": ">=1.4.0,<2.0.0"
             },
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": [
-                    "less/bootstrap.less",
+                    "scss/bootstrap.scss",
                     "dist/js/bootstrap.js"
                 ],
                 "bower-asset-ignore": [
@@ -599,112 +467,10 @@
                 "framework",
                 "front-end",
                 "js",
-                "less",
                 "mobile-first",
                 "responsive",
-                "web"
-            ]
-        },
-        {
-            "name": "bower-asset/bootstrap-material-design",
-            "version": "v0.5.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FezVrasta/bootstrap-material-design.git",
-                "reference": "caca207c88de8f819a27f5f36ba90f083761f0b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FezVrasta/bootstrap-material-design/zipball/caca207c88de8f819a27f5f36ba90f083761f0b4",
-                "reference": "caca207c88de8f819a27f5f36ba90f083761f0b4",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap": "~3.3.6",
-                "bower-asset/bootstrap-sass": "~3.3.6",
-                "bower-asset/jquery": ">=2.2.0,<3.0.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "dist/css/bootstrap-material-design.css",
-                    "dist/js/material.js",
-                    "dist/css/ripples.css",
-                    "dist/js/ripples.js"
-                ],
-                "bower-asset-ignore": [
-                    "test",
-                    "screenshots",
-                    "demo",
-                    ".editorconfig",
-                    ".gitignore",
-                    ".jshintrc",
-                    ".travis.yml",
-                    "CONTRIBUTING.md",
-                    "Gruntfile.json",
-                    "index.html",
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "https://github.com/FezVrasta/bootstrap-material-design/blob/master/LICENSE.md"
-            ],
-            "description": "Material Design theme for Bootstrap 3",
-            "keywords": [
-                "android",
-                "bootstrap",
-                "design",
-                "google",
-                "material",
-                "theme"
-            ]
-        },
-        {
-            "name": "bower-asset/bootstrap-sass",
-            "version": "v3.3.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap-sass.git",
-                "reference": "6620202b137a877dc614dd87bf7f81f895af8024"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap-sass/zipball/6620202b137a877dc614dd87bf7f81f895af8024",
-                "reference": "6620202b137a877dc614dd87bf7f81f895af8024",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.9.1,<4.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "assets/stylesheets/_bootstrap.scss",
-                    "assets/javascripts/bootstrap.js"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "lib",
-                    "tasks",
-                    "templates",
-                    "test",
-                    "*.gemspec",
-                    "Rakefile",
-                    "Gemfile"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
-            "keywords": [
-                "bootstrap",
                 "sass",
-                "twbs"
+                "web"
             ]
         },
         {
@@ -734,44 +500,6 @@
                 "MIT"
             ],
             "description": "Simple HTML5 Charts using the canvas element"
-        },
-        {
-            "name": "bower-asset/clipboard",
-            "version": "v1.5.16",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zenorocha/clipboard.js.git",
-                "reference": "402c9ee17bed6f273bcbc7efa81874fd9a50b84c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zenorocha/clipboard.js/zipball/402c9ee17bed6f273bcbc7efa81874fd9a50b84c",
-                "reference": "402c9ee17bed6f273bcbc7efa81874fd9a50b84c",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "dist/clipboard.js",
-                "bower-asset-ignore": [
-                    "/.*/",
-                    "/demo/",
-                    "/test/",
-                    "/.*",
-                    "/bower.json",
-                    "/karma.conf.js",
-                    "/src",
-                    "/lib"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Modern copy to clipboard. No Flash. Just 2kb",
-            "keywords": [
-                "clipboard",
-                "copy",
-                "cut"
-            ]
         },
         {
             "name": "bower-asset/cookieconsent2",
@@ -845,12 +573,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/carhartl/jquery-cookie.git",
-                "reference": "92b7715518f2e6e90f4cfc7a07f9726a614ebe66"
+                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carhartl/jquery-cookie/zipball/92b7715518f2e6e90f4cfc7a07f9726a614ebe66",
-                "reference": "92b7715518f2e6e90f4cfc7a07f9726a614ebe66",
+                "url": "https://api.github.com/repos/carhartl/jquery-cookie/zipball/7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
+                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
                 "shasum": ""
             },
             "require": {
@@ -918,12 +646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ksylvest/jquery-growl.git",
-                "reference": "88e3d86c109ed28cec6a53253c002783759180f8"
+                "reference": "eb8a8d4308b024510a6f168179986df6b46ed423"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ksylvest/jquery-growl/zipball/88e3d86c109ed28cec6a53253c002783759180f8",
-                "reference": "88e3d86c109ed28cec6a53253c002783759180f8",
+                "url": "https://api.github.com/repos/ksylvest/jquery-growl/zipball/eb8a8d4308b024510a6f168179986df6b46ed423",
+                "reference": "eb8a8d4308b024510a6f168179986df6b46ed423",
                 "shasum": ""
             },
             "require": {
@@ -1024,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jozefizso/bower-jquery-easing.git",
-                "reference": "72fec3d9126601939239cb85364dbdb771884380"
+                "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jozefizso/bower-jquery-easing/zipball/72fec3d9126601939239cb85364dbdb771884380",
-                "reference": "72fec3d9126601939239cb85364dbdb771884380",
+                "url": "https://api.github.com/repos/jozefizso/bower-jquery-easing/zipball/7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
+                "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
                 "shasum": ""
             },
             "require": {
@@ -1278,12 +1006,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "0af7d4f5f25f911c2eaab2a7ccb534c17e65c536"
+                "reference": "b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/0af7d4f5f25f911c2eaab2a7ccb534c17e65c536",
-                "reference": "0af7d4f5f25f911c2eaab2a7ccb534c17e65c536",
+                "url": "https://api.github.com/repos/moment/moment/zipball/b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378",
+                "reference": "b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -1312,68 +1040,6 @@
             },
             "license": [
                 "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/ng-file-upload",
-            "version": "12.2.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/danialfarid/angular-file-upload-bower.git",
-                "reference": "4ba3e7eb34c3ced628699e3e20bfca32ea5be1f5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/danialfarid/angular-file-upload-bower/zipball/4ba3e7eb34c3ced628699e3e20bfca32ea5be1f5",
-                "reference": "4ba3e7eb34c3ced628699e3e20bfca32ea5be1f5",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/angular": ">1.2.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "ng-file-upload.js",
-                "bower-asset-ignore": []
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Lightweight Angular JS directive to upload files. Support drag&drop, paste image, progress and abort"
-        },
-        {
-            "name": "bower-asset/ngclipboard",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sachinchoolur/ngclipboard.git",
-                "reference": "4870a07486c42be7cb0976a9a64005ef1f4dee60"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sachinchoolur/ngclipboard/zipball/4870a07486c42be7cb0976a9a64005ef1f4dee60",
-                "reference": "4870a07486c42be7cb0976a9a64005ef1f4dee60",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/angular": ">=1.2.0",
-                "bower-asset/clipboard": "~1.5.5"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "dist/ngclipboard.js",
-                "bower-asset-ignore": [
-                    "README.md",
-                    "demo"
-                ]
-            },
-            "description": "Angularjs directive for clipboard.js",
-            "keywords": [
-                "angularjs",
-                "clipboard",
-                "copy",
-                "cut",
-                "ngclipboard"
             ]
         },
         {
@@ -1527,6 +1193,39 @@
                 "search",
                 "sift",
                 "sort"
+            ]
+        },
+        {
+            "name": "bower-asset/tether",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HubSpot/tether.git",
+                "reference": "3d7119e590661f8c9e9e566c8a7640c189687215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HubSpot/tether/zipball/3d7119e590661f8c9e9e566c8a7640c189687215",
+                "reference": "3d7119e590661f8c9e9e566c8a7640c189687215",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/js/tether.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A client-side library to make absolutely positioned elements attach to elements in the page efficiently.",
+            "keywords": [
+                "javascript"
             ]
         },
         {
@@ -2423,113 +2122,6 @@
                 "yii2"
             ],
             "time": "2017-04-17T22:33:01+00:00"
-        },
-        {
-            "name": "dmstr/yii2-filefly-module",
-            "version": "0.6.11-rc3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dmstr/yii2-filefly-module.git",
-                "reference": "a356a4b1517c9b0351570945544757f9529c870c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-filefly-module/zipball/a356a4b1517c9b0351570945544757f9529c870c",
-                "reference": "a356a4b1517c9b0351570945544757f9529c870c",
-                "shasum": ""
-            },
-            "require": {
-                "creocoder/yii2-flysystem": "^0.8.1",
-                "dmstr/yii2-db": "~0.7",
-                "league/flysystem-sftp": "~1.0",
-                "league/flysystem-webdav": "~1.0",
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "bootstrap": "hrzg\\filefly\\Bootstrap"
-            },
-            "autoload": {
-                "psr-4": {
-                    "hrzg\\filefly\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Munk",
-                    "email": "tobias@diemeisterei.de"
-                },
-                {
-                    "name": "Christopher Stebe",
-                    "email": "c.stebe@herzogkommunikation.de"
-                }
-            ],
-            "description": "FlySystem API for Filemanager",
-            "keywords": [
-                "extension",
-                "yii2"
-            ],
-            "time": "2017-05-23T16:01:17+00:00"
-        },
-        {
-            "name": "dmstr/yii2-filemanager-widgets",
-            "version": "0.6.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dmstr/yii2-filemanager-widgets.git",
-                "reference": "6ee092e9768ce7887d07169d86ab5fdf7078b5b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dmstr/yii2-filemanager-widgets/zipball/6ee092e9768ce7887d07169d86ab5fdf7078b5b8",
-                "reference": "6ee092e9768ce7887d07169d86ab5fdf7078b5b8",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/angular": "~1.5.0",
-                "bower-asset/angular-sanitize": "~1.5.0",
-                "bower-asset/angular-translate": "~2.9.1",
-                "bower-asset/bootstrap": "^3.3.0",
-                "bower-asset/ng-file-upload": "^12.0.1",
-                "bower-asset/ngclipboard": "^1.1.1",
-                "dmstr/yii2-filefly-module": "^0.6.0",
-                "kartik-v/yii2-widget-select2": "^2.0.0",
-                "rmrevin/yii2-fontawesome": "~2.9",
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "bootstrap": "hrzg\\filemanager\\Bootstrap",
-                "asset-installer-paths": {
-                    "bower-asset-library": "vendor/bower"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "hrzg\\filemanager\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Stebe",
-                    "email": "c.stebe@herzogkommunikation.de"
-                }
-            ],
-            "description": "A very smart filemanager to manage your files in the browser developed in AngularJS with Material-Design",
-            "keywords": [
-                "angular-filemanager",
-                "filemanager",
-                "yii2"
-            ],
-            "time": "2017-04-20T22:32:29+00:00"
         },
         {
             "name": "dmstr/yii2-helpers",
@@ -3895,100 +3487,6 @@
             "time": "2017-06-08T13:37:03+00:00"
         },
         {
-            "name": "league/flysystem-sftp",
-            "version": "1.0.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-sftp.git",
-                "reference": "ae7fb1f30a2db3fa5ca3e7db4b42124d7c3a053a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp/zipball/ae7fb1f30a2db3fa5ca3e7db4b42124d7c3a053a",
-                "reference": "ae7fb1f30a2db3fa5ca3e7db4b42124d7c3a053a",
-                "shasum": ""
-            },
-            "require": {
-                "league/flysystem": "~1.0",
-                "php": ">=5.4.0",
-                "phpseclib/phpseclib": "~2.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\Sftp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Flysystem adapter for SFTP",
-            "time": "2016-12-08T21:28:01+00:00"
-        },
-        {
-            "name": "league/flysystem-webdav",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-webdav.git",
-                "reference": "5fb6f5a45e5f2a5519a26032d98ad7d7c65f81d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-webdav/zipball/5fb6f5a45e5f2a5519a26032d98ad7d7c65f81d7",
-                "reference": "5fb6f5a45e5f2a5519a26032d98ad7d7c65f81d7",
-                "shasum": ""
-            },
-            "require": {
-                "league/flysystem": "~1.0",
-                "php": ">=5.5.0",
-                "sabre/dav": "~3.1"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\WebDAV\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Flysystem adapter for WebDAV",
-            "time": "2016-12-14T11:28:55+00:00"
-        },
-        {
             "name": "loveorigami/yii2-notification-wrapper",
             "version": "6.4",
             "source": {
@@ -4323,98 +3821,6 @@
                 "xlsx"
             ],
             "time": "2015-05-01T07:00:55+00:00"
-        },
-        {
-            "name": "phpseclib/phpseclib",
-            "version": "2.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "34a7699e6f31b1ef4035ee36444407cecf9f56aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/34a7699e6f31b1ef4035ee36444407cecf9f56aa",
-                "reference": "34a7699e6f31b1ef4035ee36444407cecf9f56aa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phing/phing": "~2.7",
-                "phpunit/phpunit": "~4.0",
-                "sami/sami": "~2.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "suggest": {
-                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
-                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
-                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "phpseclib/bootstrap.php"
-                ],
-                "psr-4": {
-                    "phpseclib\\": "phpseclib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jim Wigginton",
-                    "email": "terrafrost@php.net",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Patrick Monnerat",
-                    "email": "pm@datasphere.ch",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Andreas Fischer",
-                    "email": "bantu@phpbb.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Hans-Jürgen Petrich",
-                    "email": "petrich@tronic-media.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
-            "homepage": "http://phpseclib.sourceforge.net",
-            "keywords": [
-                "BigInteger",
-                "aes",
-                "asn.1",
-                "asn1",
-                "blowfish",
-                "crypto",
-                "cryptography",
-                "encryption",
-                "rsa",
-                "security",
-                "sftp",
-                "signature",
-                "signing",
-                "ssh",
-                "twofish",
-                "x.509",
-                "x509"
-            ],
-            "time": "2017-06-05T06:31:10+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -4787,458 +4193,6 @@
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
             "time": "2017-06-22T16:43:17+00:00"
-        },
-        {
-            "name": "romdim/yii2-bootstrap-material",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/romdim/yii2-bootstrap-material.git",
-                "reference": "7d20b96d08f611301458530efd9ac67279db859c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/romdim/yii2-bootstrap-material/zipball/7d20b96d08f611301458530efd9ac67279db859c",
-                "reference": "7d20b96d08f611301458530efd9ac67279db859c",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap-material-design": "*",
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-bootstrap": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "romdim\\bootstrap\\material\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Romanos Tsouroplis",
-                    "email": "rom-dim@hotmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Composer package for implementing FezVrasta's bootstrap material design in Yii2.",
-            "keywords": [
-                "bootstrap",
-                "material",
-                "yii",
-                "yii2"
-            ],
-            "time": "2015-04-03T08:32:18+00:00"
-        },
-        {
-            "name": "sabre/dav",
-            "version": "3.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-dav.git",
-                "reference": "e987775e619728f12205606c9cc3ee565ffb1516"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-dav/zipball/e987775e619728f12205606c9cc3ee565ffb1516",
-                "reference": "e987775e619728f12205606c9cc3ee565ffb1516",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-date": "*",
-                "ext-dom": "*",
-                "ext-iconv": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "lib-libxml": ">=2.7.0",
-                "php": ">=5.5.0",
-                "psr/log": "^1.0",
-                "sabre/event": ">=2.0.0, <4.0.0",
-                "sabre/http": "^4.2.1",
-                "sabre/uri": "^1.0.1",
-                "sabre/vobject": "^4.1.0",
-                "sabre/xml": "^1.4.0"
-            },
-            "require-dev": {
-                "evert/phpdoc-md": "~0.1.0",
-                "monolog/monolog": "^1.18",
-                "phpunit/phpunit": "> 4.8, <6.0.0",
-                "sabre/cs": "^1.0.0"
-            },
-            "suggest": {
-                "ext-curl": "*",
-                "ext-pdo": "*"
-            },
-            "bin": [
-                "bin/sabredav",
-                "bin/naturalselection"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sabre\\DAV\\": "lib/DAV/",
-                    "Sabre\\DAVACL\\": "lib/DAVACL/",
-                    "Sabre\\CalDAV\\": "lib/CalDAV/",
-                    "Sabre\\CardDAV\\": "lib/CardDAV/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "WebDAV Framework for PHP",
-            "homepage": "http://sabre.io/",
-            "keywords": [
-                "CalDAV",
-                "CardDAV",
-                "WebDAV",
-                "framework",
-                "iCalendar"
-            ],
-            "time": "2017-02-15T03:06:08+00:00"
-        },
-        {
-            "name": "sabre/event",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-event.git",
-                "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-event/zipball/831d586f5a442dceacdcf5e9c4c36a4db99a3534",
-                "reference": "831d586f5a442dceacdcf5e9c4c36a4db99a3534",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "~0.0.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Sabre\\Event\\": "lib/"
-                },
-                "files": [
-                    "lib/coroutine.php",
-                    "lib/Loop/functions.php",
-                    "lib/Promise/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "sabre/event is a library for lightweight event-based programming",
-            "homepage": "http://sabre.io/event/",
-            "keywords": [
-                "EventEmitter",
-                "async",
-                "events",
-                "hooks",
-                "plugin",
-                "promise",
-                "signal"
-            ],
-            "time": "2015-11-05T20:14:39+00:00"
-        },
-        {
-            "name": "sabre/http",
-            "version": "4.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-http.git",
-                "reference": "0295f9a3ee39be97e0898592fc19e42421e0cd93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-http/zipball/0295f9a3ee39be97e0898592fc19e42421e0cd93",
-                "reference": "0295f9a3ee39be97e0898592fc19e42421e0cd93",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-mbstring": "*",
-                "php": ">=5.4",
-                "sabre/event": ">=1.0.0,<4.0.0",
-                "sabre/uri": "~1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.3",
-                "sabre/cs": "~0.0.1"
-            },
-            "suggest": {
-                "ext-curl": " to make http requests with the Client class"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/functions.php"
-                ],
-                "psr-4": {
-                    "Sabre\\HTTP\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The sabre/http library provides utilities for dealing with http requests and responses. ",
-            "homepage": "https://github.com/fruux/sabre-http",
-            "keywords": [
-                "http"
-            ],
-            "time": "2017-06-12T07:53:04+00:00"
-        },
-        {
-            "name": "sabre/uri",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-uri.git",
-                "reference": "ada354d83579565949d80b2e15593c2371225e61"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-uri/zipball/ada354d83579565949d80b2e15593c2371225e61",
-                "reference": "ada354d83579565949d80b2e15593c2371225e61",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.7"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.0,<6.0",
-                "sabre/cs": "~1.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/functions.php"
-                ],
-                "psr-4": {
-                    "Sabre\\Uri\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Functions for making sense out of URIs.",
-            "homepage": "http://sabre.io/uri/",
-            "keywords": [
-                "rfc3986",
-                "uri",
-                "url"
-            ],
-            "time": "2017-02-20T19:59:28+00:00"
-        },
-        {
-            "name": "sabre/vobject",
-            "version": "4.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-vobject.git",
-                "reference": "d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-vobject/zipball/d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c",
-                "reference": "d0fde2fafa2a3dad1f559c2d1c2591d4fd75ae3c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.5",
-                "sabre/xml": ">=1.5 <3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "^1.0.0"
-            },
-            "suggest": {
-                "hoa/bench": "If you would like to run the benchmark scripts"
-            },
-            "bin": [
-                "bin/vobject",
-                "bin/generate_vcards"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sabre\\VObject\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Dominik Tobschall",
-                    "email": "dominik@fruux.com",
-                    "homepage": "http://tobschall.de/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Ivan Enderlin",
-                    "email": "ivan.enderlin@hoa-project.net",
-                    "homepage": "http://mnt.io/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects",
-            "homepage": "http://sabre.io/vobject/",
-            "keywords": [
-                "availability",
-                "freebusy",
-                "iCalendar",
-                "ical",
-                "ics",
-                "jCal",
-                "jCard",
-                "recurrence",
-                "rfc2425",
-                "rfc2426",
-                "rfc2739",
-                "rfc4770",
-                "rfc5545",
-                "rfc5546",
-                "rfc6321",
-                "rfc6350",
-                "rfc6351",
-                "rfc6474",
-                "rfc6638",
-                "rfc6715",
-                "rfc6868",
-                "vCalendar",
-                "vCard",
-                "vcf",
-                "xCal",
-                "xCard"
-            ],
-            "time": "2016-12-06T04:14:09+00:00"
-        },
-        {
-            "name": "sabre/xml",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-xml.git",
-                "reference": "59b20e5bbace9912607481634f97d05a776ffca7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-xml/zipball/59b20e5bbace9912607481634f97d05a776ffca7",
-                "reference": "59b20e5bbace9912607481634f97d05a776ffca7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-xmlreader": "*",
-                "ext-xmlwriter": "*",
-                "lib-libxml": ">=2.6.20",
-                "php": ">=5.5.5",
-                "sabre/uri": ">=1.0,<3.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "~1.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Sabre\\Xml\\": "lib/"
-                },
-                "files": [
-                    "lib/Deserializer/functions.php",
-                    "lib/Serializer/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Markus Staab",
-                    "email": "markus.staab@redaxo.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "sabre/xml is an XML library that you may not hate.",
-            "homepage": "https://sabre.io/xml/",
-            "keywords": [
-                "XMLReader",
-                "XMLWriter",
-                "dom",
-                "xml"
-            ],
-            "time": "2016-10-09T22:57:52+00:00"
         },
         {
             "name": "schmunk42/retry",
@@ -6038,106 +4992,6 @@
             "time": "2017-03-13T16:52:55+00:00"
         },
         {
-            "name": "yiisoft/yii2",
-            "version": "2.0.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/70acbecc75cb26b6cd66d16be0b06e4b73db190d",
-                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
-                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.5",
-                "bower-asset/punycode": "1.3.*",
-                "bower-asset/yii2-pjax": "~2.0.1",
-                "cebe/markdown": "~1.0.0 | ~1.1.0",
-                "ext-ctype": "*",
-                "ext-mbstring": "*",
-                "ezyang/htmlpurifier": "~4.6",
-                "lib-pcre": "*",
-                "php": ">=5.4.0",
-                "yiisoft/yii2-composer": "~2.0.4"
-            },
-            "bin": [
-                "yii"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com",
-                    "homepage": "http://www.yiiframework.com/",
-                    "role": "Founder and project lead"
-                },
-                {
-                    "name": "Alexander Makarov",
-                    "email": "sam@rmcreative.ru",
-                    "homepage": "http://rmcreative.ru/",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Maurizio Domba",
-                    "homepage": "http://mdomba.info/",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Carsten Brandt",
-                    "email": "mail@cebe.cc",
-                    "homepage": "http://cebe.cc/",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Timur Ruziev",
-                    "email": "resurtm@gmail.com",
-                    "homepage": "http://resurtm.com/",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Paul Klimov",
-                    "email": "klimov.paul@gmail.com",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Dmitry Naumenko",
-                    "email": "d.naumenko.a@gmail.com",
-                    "role": "Core framework development"
-                },
-                {
-                    "name": "Boudewijn Vahrmeijer",
-                    "email": "info@dynasource.eu",
-                    "homepage": "http://dynasource.eu",
-                    "role": "Core framework development"
-                }
-            ],
-            "description": "Yii PHP Framework Version 2",
-            "homepage": "http://www.yiiframework.com/",
-            "keywords": [
-                "framework",
-                "yii2"
-            ],
-            "time": "2017-06-05T14:33:41+00:00"
-        },
-        {
             "name": "yiisoft/yii2-authclient",
             "version": "2.1.3",
             "source": {
@@ -6191,21 +5045,22 @@
         },
         {
             "name": "yiisoft/yii2-bootstrap",
-            "version": "2.0.6",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5"
+                "reference": "8d53c440b4412e471cdad016dded87fd42124b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5",
-                "reference": "3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/8d53c440b4412e471cdad016dded87fd42124b01",
+                "reference": "8d53c440b4412e471cdad016dded87fd42124b01",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*",
-                "yiisoft/yii2": ">=2.0.6"
+                "bower-asset/bootstrap": "~4.0.0@alpha",
+                "bower-asset/tether": "1.4.*",
+                "yiisoft/yii2": "~2.0.6"
             },
             "type": "yii2-extension",
             "extra": {
@@ -6237,7 +5092,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2016-03-17T03:29:28+00:00"
+            "time": "2017-04-03T22:22:31+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -6291,21 +5146,21 @@
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.9",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9"
+                "reference": "55ed2e853ed8050a34415f63a4da84f88a56f895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/55ed2e853ed8050a34415f63a4da84f88a56f895",
+                "reference": "55ed2e853ed8050a34415f63a4da84f88a56f895",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0.11",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2-bootstrap": "*"
             },
             "type": "yii2-extension",
             "extra": {
@@ -6334,7 +5189,117 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-21T10:30:50+00:00"
+            "time": "2016-03-17T03:50:19+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-dev",
+            "version": "2.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2.git",
+                "reference": "be658f82bf515f1c1040cb6f987280f436258dc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2/zipball/be658f82bf515f1c1040cb6f987280f436258dc0",
+                "reference": "be658f82bf515f1c1040cb6f987280f436258dc0",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.5",
+                "bower-asset/punycode": "1.3.*",
+                "bower-asset/yii2-pjax": "~2.0.1",
+                "cebe/markdown": "~1.0.0 | ~1.1.0",
+                "ext-ctype": "*",
+                "ext-mbstring": "*",
+                "ezyang/htmlpurifier": "~4.6",
+                "lib-pcre": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2-composer": "~2.0.4"
+            },
+            "replace": {
+                "yiisoft/yii2": "self.version"
+            },
+            "require-dev": {
+                "cebe/indent": "~1.0.2",
+                "phpunit/phpunit": "~4.4"
+            },
+            "suggest": {
+                "yiisoft/yii2-coding-standards": "you can use this package to check for code style issues when contributing to yii"
+            },
+            "bin": [
+                "framework/yii"
+            ],
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\": "framework/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Dmitry Naumenko",
+                    "email": "d.naumenko.a@gmail.com",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Boudewijn Vahrmeijer",
+                    "email": "info@dynasource.eu",
+                    "homepage": "http://dynasource.eu",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii PHP Framework Version 2 - Development Package",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii2"
+            ],
+            "time": "2017-06-05T14:33:41+00:00"
         },
         {
             "name": "yiisoft/yii2-httpclient",
@@ -6695,12 +5660,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twitter/typeahead.js.git",
-                "reference": "87de059a7820b1e223f1c704fa12a624dbce3a4f"
+                "reference": "588440f66559714280628a4f9799f0c4eb880a4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twitter/typeahead.js/zipball/87de059a7820b1e223f1c704fa12a624dbce3a4f",
-                "reference": "87de059a7820b1e223f1c704fa12a624dbce3a4f",
+                "url": "https://api.github.com/repos/twitter/typeahead.js/zipball/588440f66559714280628a4f9799f0c4eb880a4a",
+                "reference": "588440f66559714280628a4f9799f0c4eb880a4a",
                 "shasum": ""
             },
             "require": {
@@ -6757,16 +5722,16 @@
         },
         {
             "name": "cebe/markdown-latex",
-            "version": "1.1.4",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown-latex.git",
-                "reference": "42eb55c6f5a8dd68a1c029755eccd73e117aaa9b"
+                "reference": "9ba3e0d629aa3a3e61cc159a999209ab54e3ef43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown-latex/zipball/42eb55c6f5a8dd68a1c029755eccd73e117aaa9b",
-                "reference": "42eb55c6f5a8dd68a1c029755eccd73e117aaa9b",
+                "url": "https://api.github.com/repos/cebe/markdown-latex/zipball/9ba3e0d629aa3a3e61cc159a999209ab54e3ef43",
+                "reference": "9ba3e0d629aa3a3e61cc159a999209ab54e3ef43",
                 "shasum": ""
             },
             "require": {
@@ -6803,7 +5768,7 @@
                     "role": "Creator"
                 }
             ],
-            "description": "A super fast, highly extensible markdown parser for PHP, that converts markdown files into latex",
+            "description": "A super fast highly extensible markdown parser for PHP that converts markdown files into latex",
             "homepage": "https://github.com/cebe/markdown-latex#readme",
             "keywords": [
                 "extensible",
@@ -6813,7 +5778,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2017-05-19T11:16:33+00:00"
+            "time": "2014-10-20T23:24:21+00:00"
         },
         {
             "name": "cmrcx/phptidy",
@@ -7436,23 +6401,23 @@
         },
         {
             "name": "gecko-packages/gecko-php-unit",
-            "version": "v2.0",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GeckoPackages/GeckoPHPUnit.git",
-                "reference": "40a697ec261f3526e8196363b481b24383740c13"
+                "reference": "5b9e9622c7efd3b22655270b80c03f9e52878a6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/40a697ec261f3526e8196363b481b24383740c13",
-                "reference": "40a697ec261f3526e8196363b481b24383740c13",
+                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/5b9e9622c7efd3b22655270b80c03f9e52878a6e",
+                "reference": "5b9e9622c7efd3b22655270b80c03f9e52878a6e",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.4.3"
             },
             "type": "library",
             "autoload": {
@@ -7471,7 +6436,7 @@
                 "filesystem",
                 "phpunit"
             ],
-            "time": "2016-11-22T11:01:27+00:00"
+            "time": "2017-06-20T11:22:48+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -7598,32 +6563,32 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.4.1",
+            "version": "v0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51"
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
-                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
+                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3"
+                "php": ">=5.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "0.9-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "lib/bootstrap.php"
-                ]
+                "psr-0": {
+                    "PHPParser": "lib/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -7639,7 +6604,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-09-19T14:15:08+00:00"
+            "time": "2014-07-23T18:24:17+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -7793,20 +6758,20 @@
         },
         {
             "name": "phpdocumentor/reflection",
-            "version": "3.0.1",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/Reflection.git",
-                "reference": "793bfd92d9a0fc96ae9608fb3e947c3f59fb3a0d"
+                "reference": "fc40c3f604ac2287eb5c314174d5109b2c699372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/793bfd92d9a0fc96ae9608fb3e947c3f59fb3a0d",
-                "reference": "793bfd92d9a0fc96ae9608fb3e947c3f59fb3a0d",
+                "url": "https://api.github.com/repos/phpDocumentor/Reflection/zipball/fc40c3f604ac2287eb5c314174d5109b2c699372",
+                "reference": "fc40c3f604ac2287eb5c314174d5109b2c699372",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^1.0",
+                "nikic/php-parser": "~0.9.4",
                 "php": ">=5.3.3",
                 "phpdocumentor/reflection-docblock": "~2.0",
                 "psr/log": "~1.0"
@@ -7843,7 +6808,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2016-05-21T08:42:32+00:00"
+            "time": "2014-11-14T11:43:04+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -9873,29 +8838,28 @@
         },
         {
             "name": "yiisoft/yii2-apidoc",
-            "version": "2.1.0",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-apidoc.git",
-                "reference": "dd0918ccbce2c1bdea836667f54e8f8b99d27128"
+                "reference": "79d9575c241d54065fd5c489039ba30c0319608e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-apidoc/zipball/dd0918ccbce2c1bdea836667f54e8f8b99d27128",
-                "reference": "dd0918ccbce2c1bdea836667f54e8f8b99d27128",
+                "url": "https://api.github.com/repos/yiisoft/yii2-apidoc/zipball/79d9575c241d54065fd5c489039ba30c0319608e",
+                "reference": "79d9575c241d54065fd5c489039ba30c0319608e",
                 "shasum": ""
             },
             "require": {
-                "cebe/js-search": "~0.9.3",
+                "cebe/js-search": "*",
                 "cebe/markdown": "~1.0.0 | ~1.1.0",
-                "cebe/markdown-latex": "~1.0",
-                "nikic/php-parser": "^1.0",
-                "php": ">=5.4",
-                "phpdocumentor/reflection": "^3.0.1",
-                "phpdocumentor/reflection-docblock": "^2.0.4",
+                "cebe/markdown-latex": "~1.0.0",
+                "nikic/php-parser": "0.9.*",
+                "phpdocumentor/reflection": "^1.0.3",
+                "phpdocumentor/reflection-docblock": "^2.0.1",
                 "scrivo/highlight.php": "~8.0",
-                "yiisoft/yii2": "~2.0.4",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2-bootstrap": "*"
             },
             "bin": [
                 "apidoc"
@@ -9933,7 +8897,7 @@
                 "phpdoc",
                 "yii2"
             ],
-            "time": "2016-11-22T15:29:55+00:00"
+            "time": "2016-03-17T04:25:50+00:00"
         },
         {
             "name": "yiisoft/yii2-coding-standards",
@@ -10105,13 +9069,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "RC",
+    "minimum-stability": "alpha",
     "stability-flags": {
-        "dmstr/yii2-backend-module": 10,
-        "dmstr/yii2-migrate-command": 10,
-        "dmstr/yii2-widgets2-module": 10,
-        "pheme/yii2-settings": 10,
-        "roave/security-advisories": 20
+        "roave/security-advisories": 20,
+        "yiisoft/yii2-bootstrap": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
