@@ -9,7 +9,11 @@ services:
   php:
     build:
       context: .
-    image: ${STACK_PHP_IMAGE}
+      # FLAVOUR can be undefinied OR -debian
+      # undefined == alpine base image
+      # -debian   == debian base image
+      dockerfile: Dockerfile${FLAVOUR}
+    image: ${STACK_PHP_IMAGE}${FLAVOUR}
     working_dir: /app/tests
     ports:
       - 80
@@ -37,8 +41,8 @@ services:
       - DB_ENV_MYSQL_ROOT_PASSWORD=secret
     volumes:
       - ./tests:/app/tests
+      - ./src:/app/src
       # Settings for local test-development
-      #- ./src:/app/src
       #- ./web:/app/web
       #- ./vendor:/app/vendor
       # Debug settings
@@ -51,6 +55,11 @@ services:
   worker:
     build:
       context: .
+      # FLAVOUR can be undefinied OR -debian
+      # undefined == alpine base image
+      # -dabien   == debian base image
+      dockerfile: Dockerfile${FLAVOUR}
+    image: ${STACK_PHP_IMAGE}${FLAVOUR}
 
   db:
     image: percona:5.7

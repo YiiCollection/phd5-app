@@ -17,7 +17,7 @@ if (getenv('ENV_LOCAL_FILE')) {
         $dotenvLocal = new Dotenv\Dotenv($srcPath, getenv('ENV_LOCAL_FILE'));
         $dotenvLocal->load();
     } else {
-        exit ('ENV_LOCAL_FILE not found');
+        exit('ENV_LOCAL_FILE not found');
     }
 }
 
@@ -31,6 +31,7 @@ $dotenv->required('YII_ENV', ['dev', 'prod', 'test']);
 $dotenv->required([
     'YII_TRACE_LEVEL',
     'APP_NAME',
+    'APP_TITLE',
     'APP_ADMIN_EMAIL',
     'APP_LANGUAGES',
     'APP_COOKIE_VALIDATION_KEY',

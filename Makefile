@@ -1,4 +1,4 @@
-.PHONY: build test
+.PHONY: all dev init bash exec upgrade update assets latest
 
 include ./Makefile.base
 
@@ -26,7 +26,6 @@ init:   ##@development initialize development environment
 	cp -n src/app.env-dist src/app.env &2>/dev/null
 	mkdir -p web/assets runtime
 
-
 bash:	 ##@development run application bash in one-off container
 	#
 	# Starting application bash
@@ -40,15 +39,16 @@ exec:	 ##@development execute command (c='yii help') in running container
 	#
 	$(DOCKER_COMPOSE) exec php $(c)
 
-upgrade: build update
 upgrade: ##@development update application package, pull, rebuild
-
-update: ##@development update application package, pull, rebuild
 	#
 	# Running package upgrade in container
 	# Note: If you have performance with this operation issues, please check the documentation under http://phd.dmstr.io/docs
 	#
 	$(DOCKER_COMPOSE) run --rm php composer update -v
+	$(DOCKER_COMPOSE) build --pull
+
+dist-upgrade: build update
+dist-upgrade: ##@development update application package, pull, rebuild
 
 assets:	 ##@development open application development bash
 	#
@@ -61,22 +61,3 @@ latest: ##@development push to latest (release) branch
 	# Pushing to latest branch
 	#
 	git push origin master:latest
-
-lint:	 ##@development run source-code linting
-	#
-	# Liniting source-code with cs-fixer, phpmetrics & phpmd
-	#
-	mkdir -p tests/_lint/lint && chmod -R 777 tests/_lint/lint
-	docker run --rm -v "${PWD}:/project" jolicode/phaudit php-cs-fixer fix --format=txt -v --dry-run src || export ERROR=1; \
-	docker run --rm -v "${PWD}:/project" jolicode/phaudit phpmetrics --report-html=tests/_lint/lint/metrics.html --excluded-dirs=migrations src/ || ERROR=1; \
-	docker run --rm -v "${PWD}:/project" jolicode/phaudit phpmd src html cleancode,codesize,controversial,design,unusedcode,tests/phpmd/naming.xml --exclude src/migrations > tests/_lint/lint/mess.html || ERROR=1; \
-	exit ${ERROR}
-
-lint-composer: ##@development run composer linting
-	#
-	# Liniting composer configuration
-	#
-	docker-compose run --rm php composer --no-ansi validate || ERROR=1; \
-	docker-compose run --rm php composer --no-ansi show || ERROR=1; \
-	docker-compose run --rm php composer --no-ansi show -o || ERROR=1; \
-	exit ${ERROR}
