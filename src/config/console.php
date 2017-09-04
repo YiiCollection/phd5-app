@@ -16,6 +16,7 @@ return [
         'migrate' => 'dmstr\console\controllers\MigrateController',
         'translate' => 'lajax\translatemanager\commands\TranslatemanagerController',
         'resque' => 'hrzg\resque\commands\ResqueController',
+        'rbac' => 'dektrium\rbac\commands\RbacController',
         'db' => [
             'class' => 'dmstr\console\controllers\MysqlController',
             'noDataTables' => [
