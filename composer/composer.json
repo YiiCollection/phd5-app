@@ -17,9 +17,11 @@
             "dmstr/*": "source",
             "hrzg/*": "source",
             "schmunk42/*": "source",
+            "dektrium/yii2-rbac": "source",
             "*": "auto"
         },
         "fxp-asset": {
+            "optimize-with-installed-packages": false,
             "installer-paths": {
                 "npm-asset-library": "vendor/npm",
                 "bower-asset-library": "vendor/bower"
