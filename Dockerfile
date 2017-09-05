@@ -11,7 +11,7 @@ WORKDIR /app
 ENV COMPOSER=composer/composer.json
 COPY composer/composer.* /app/composer/
 COPY src/composer.phd5.json /app/src/composer.phd5.json
-RUN composer install --no-dev --prefer-dist --optimize-autoloader && \
+RUN composer install --prefer-dist --optimize-autoloader && \
     composer clear-cache
 
 # Application source-code
