@@ -3,6 +3,7 @@
 ### 5.1.0 to 5.2.0
 
 - update `composer.json` settings
+- dropped application param `yii.migrations`; reconfigured `migrate` command, using native framework version
 
 ### 5.0.0 to 5.1.0
 

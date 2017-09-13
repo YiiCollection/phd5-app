@@ -62,18 +62,6 @@ return [
     'params' => [
         'adminEmail' => getenv('APP_ADMIN_EMAIL'),
         'context.menuItems' => [],
-        'yii.migrations' => [
-            getenv('APP_MIGRATION_LOOKUP'),
-            '@yii/rbac/migrations',
-            '@yii/web/migrations',
-            '@bedezign/yii2/audit/migrations',
-            '@dektrium/user/migrations',
-            '@hrzg/widget/migrations',
-            '@dmstr/modules/contact/migrations',
-            '@vendor/lajax/yii2-translate-manager/migrations',
-            '@vendor/pheme/yii2-settings/migrations',
-            '@vendor/dmstr/yii2-prototype-module/src/migrations',
-        ],
         'backend.iframe.name' => 'backend-'.getenv('HOSTNAME'),
     ],
     'components' => [

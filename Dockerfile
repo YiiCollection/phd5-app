@@ -8,7 +8,7 @@ RUN rm -rf ~/.composer/vendor && composer global install
 
 # Application packages
 WORKDIR /app
-ENV COMPOSER=composer/composer.json
+ENV COMPOSER=/app/composer/composer.json
 COPY composer/composer.* /app/composer/
 COPY src/composer.phd5.json /app/src/composer.phd5.json
 RUN composer install --prefer-dist --optimize-autoloader && \

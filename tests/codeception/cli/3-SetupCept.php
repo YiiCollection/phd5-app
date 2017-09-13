@@ -15,7 +15,7 @@ $I->seeInShellOutput('Done.');
 
 $I->amGoingTo('check if all migrations have been applied');
 $I->runShellCommand('yii migrate/up --interactive=0');
-$I->seeShellOutputMatches('No new migration(s?) found');
+$I->seeShellOutputMatches('/No new migration(s?) found/');
 $I->dontSeeInShellOutput('error');
 
 $I->amGoingTo('change the admin user password');
