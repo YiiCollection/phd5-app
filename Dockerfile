@@ -1,10 +1,12 @@
-FROM dmstr/php-yii2:7.1-fpm-3.1-rc1-alpine-nginx
+FROM dmstr/php-yii2:7.1-fpm-3.1-rc3-alpine-nginx
 
 COPY ./image-files /
 RUN chmod u+x /usr/local/bin/*
 
-# TODO: Remove when Patched plugin with skip-update
-RUN rm -rf ~/.composer/vendor && composer global install
+# Install extensions
+RUN apk add --no-cache --virtual .phpize-deps $PHPIZE_DEPS \
+ && pecl install mailparse \
+ && apk del .phpize-deps
 
 # Application packages
 WORKDIR /app

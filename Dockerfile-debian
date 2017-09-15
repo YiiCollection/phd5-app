@@ -1,12 +1,13 @@
-FROM dmstr/php-yii2:7.1-fpm-3.1-rc1-nginx
+FROM dmstr/php-yii2:7.1-fpm-3.1-rc3-nginx
 
 COPY ./image-files /
 
-# TODO: Remove when Patched plugin with skip-update
-RUN rm -rf ~/.composer/vendor && composer global install
+# Install extensions
+RUN pecl install mailparse
 
 # Application packages
 WORKDIR /app
+ENV COMPOSER=/app/composer/composer.json
 COPY composer/composer.* /app/composer/
 COPY src/composer.phd5.json /app/src/composer.phd5.json
 RUN composer install --prefer-dist --optimize-autoloader && \
