@@ -2,14 +2,14 @@
 _artifacts
 
 .env
-src/app.env
+config/app.env
 src/version
 
 vendor
-web/bundles
+public/bundles
 
 runtime
-web/assets
+public/assets
 
 docker-compose.override.yml
 tests/codeception/_output

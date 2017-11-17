@@ -24,25 +24,16 @@ services:
       # For composer usage in container
       - GITHUB_API_TOKEN=${GITHUB_API_TOKEN}
       # local dev mail setup
-      - APP_ADMIN_EMAIL=${APP_ADMIN_EMAIL}
+      #- APP_ADMIN_EMAIL=${APP_ADMIN_EMAIL}
       - APP_MAILER_HOST=mailcatcher
     volumes:
       # Re-use local composer cache via host-volume
-      - ~/.composer-docker/cache:/root/.composer/cache
-      - ./composer:/app/composer
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      - ./composer.json:/app/composer.json:cached
+      - ./composer.lock:/app/composer.lock:cached
+      - ./config:/app/config
       - ./src:/app/src
       - ./vendor/:/app/vendor
-
-  worker:
-    build:
-      context: .
-      # FLAVOUR can be undefinied OR -debian
-      # undefined == alpine base image
-      # -debian   == debian base image
-      dockerfile: Dockerfile${FLAVOUR}
-    depends_on:
-      - db
-      - redis
 
   db:
     command: --character-set-server=utf8 --collation-server=utf8_general_ci

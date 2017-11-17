@@ -47,7 +47,7 @@ return [
     'id' => 'app',
     'name' => getenv('APP_TITLE'),
     'language' => $languages[0],
-    'basePath' => realpath(__DIR__.'/..'),
+    'basePath' => realpath(__DIR__.'/../src'),
     'vendorPath' => '@app/../vendor',
     'runtimePath' => '@app/../runtime',
     // Bootstrapped modules are loaded in every request
@@ -56,6 +56,7 @@ return [
         'redirects',
     ],
     'aliases' => [
+        'webroot' => '@app/../public',
         'backend' => '@vendor/dmstr/yii2-backend-module/src',
         'storage' => '/mnt/storage',
     ],
@@ -70,7 +71,7 @@ return [
             'hashCallback' => getenv('APP_ASSET_FORCE_PUBLISH') ? \dmstr\helpers\AssetHash::byFileTimeAndLess() : null,
             // Note: You need to bundle asset with `yii asset` for development/debugging
             'bundles' => $bundles,
-            'basePath' => '@app/../web/assets',
+            'basePath' => '@webroot/assets',
         ],
         'authManager' => [
             'class' => 'dektrium\rbac\components\DbManager',

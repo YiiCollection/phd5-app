@@ -9,12 +9,12 @@
  * file that was distributed with this source code
  */
 
-$srcPath = __DIR__.'/..';
+$configPath = __DIR__;
 
 // Load default settings via dotenv from file, load local environment first, if available
 if (getenv('ENV_LOCAL_FILE')) {
-    if (is_file($srcPath.'/'.getenv('ENV_LOCAL_FILE'))) {
-        $dotenvLocal = new Dotenv\Dotenv($srcPath, getenv('ENV_LOCAL_FILE'));
+    if (is_file($configPath.'/'.getenv('ENV_LOCAL_FILE'))) {
+        $dotenvLocal = new Dotenv\Dotenv($configPath, getenv('ENV_LOCAL_FILE'));
         $dotenvLocal->load();
     } else {
         exit('ENV_LOCAL_FILE not found');
@@ -22,7 +22,7 @@ if (getenv('ENV_LOCAL_FILE')) {
 }
 
 // Load application environment configuration
-$dotenv = new Dotenv\Dotenv($srcPath, 'app.env');
+$dotenv = new Dotenv\Dotenv($configPath, 'app.env');
 $dotenv->load();
 
 // Basic checks & validation
